@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(61, 243, 158, 0.826);
+  flex-direction: column;
+}
+
+.lodo_main{ 
+  background-color: rgba(0, 149, 255, 0.598);
+
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.player_main {
+  display: flex;
+  flex-direction: column;
+}
+
+.player1_home, .player2_home, .player3_home, .player4_home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.goot_main {
+  height: 60%;
+  width: 60%;
+  display: flex;
+  background-color: #ffffff;
+  flex-wrap: wrap;
+}
+
+
+.player1_home {
+  background-color: red;
+
+}
+
+.player2_home {
+  background-color: green;
+
+}
+.player3_home {
+  background-color: blue;
+}
+
+.player4_home {
+  background-color: yellow;
+}
+
+.player1_box, .player2_box, .player3_box, .player4_box {
+   background-color: #ffffff;
+   display: flex;
+  flex-wrap: wrap;
+}
+.player1_box{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.real_box {
+  border: 1px solid black;
+  position: relative;
+}
+
+.all_goot {
+  background-color: #ffffff;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  border: 5px solid;
+  margin: 10px;
+}
+
+.run_goot {
+  height: 40%;
+  width: 40%;
+  border-radius: 100%;
+  background-color: red;
+  border: 1px solid #ffffff;
+  position:absolute;
+}
